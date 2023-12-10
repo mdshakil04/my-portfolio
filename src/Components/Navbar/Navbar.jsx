@@ -10,12 +10,21 @@ const Navbar = () => {
         <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/about">About Me</NavLink>
+        <NavLink to="/projects">Projects</NavLink>
+      </li>
+      <li>
+        <NavLink to="/skills">Skills</NavLink>
+      </li>
+      <li>
+        <NavLink to="/resume">Resume</NavLink>
+      </li>
+      <li>
+        <NavLink to="/aboutMe">About Me</NavLink>
       </li>
     </>
   );
   return (
-    <div className="navbar bg-cyan-500 font-bold  rounded-xl">
+    <div className="navbar bg-cyan-500 font-bold">
       <div className="">
         <img className="w-2/3" src={logo} alt="Shakil" />
       </div>
