@@ -4,7 +4,7 @@ import Banner from "./Banner/Banner";
 
 const Home = () => {
     return (
-        <div>
+        <div className=" bg-[#0A2647] text-white">
             <Banner></Banner>
             <Skills></Skills>
             <Projects></Projects>

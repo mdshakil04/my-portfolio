@@ -1,4 +1,4 @@
-import banner from "../../assets/Images/My W-bg pic/My-pic (3).png"
+import banner from "../../assets/Images/My W-bg pic/My-pic (1).png"
 const Banner = () => {
   return (
     <div

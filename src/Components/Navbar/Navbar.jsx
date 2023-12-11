@@ -24,7 +24,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar container mx-auto lg:ml-40 bg-[#67EACA] text-white  font-bold rounded-xl fixed">
+    <div className="navbar container mx-auto lg:ml-40 bg-[#176B87] text-white  font-bold rounded-xl fixed">
       <div className="">
         <img className="w-2/3" src={logo} alt="Shakil" />
       </div>
