@@ -24,7 +24,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar container mx-auto lg:ml-40 bg-[#176B87] text-white  font-bold rounded-xl fixed">
+    <div className="navbar container mx-auto fixed  font-bold rounded-xl">
       <div className="">
         <img className="w-2/3" src={logo} alt="Shakil" />
       </div>
@@ -58,7 +58,9 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-lg">{navLinks}</ul>
       </div>
-      <div className="navbar-end "></div>
+      <div className="navbar-end ">
+        <a className="btn btn-outline btn-info">GitHub</a>
+      </div>
     </div>
   );
 };

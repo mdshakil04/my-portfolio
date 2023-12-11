@@ -1,0 +1,19 @@
+.hero{
+    // height: 100vh;
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    position: relative;
+
+    .image-container{
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .slidingText{
+        position: absolute;
+        font-size: 30vh;
+        bottom: -65px;
+        white-space: nowrap;
+        color: #ffffff10;
+    }
+}
