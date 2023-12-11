@@ -1,9 +1,9 @@
-import banner from "../../assets/Images/My W-bg pic/new-banner.png";
+// import banner from "../../assets/Images/My W-bg pic/new-banner.png";
 const AboutMe = () => {
   return (
     <section>
-      <div className="card lg:card-side  h-screen ">
-        <div className=" lg:w-1/2 flex flex-col justify-center md:pl-24 p-4 text-center">
+      <div className="card   h-screen ">
+        <div className=" text-center p-24 px-32">
           <h2 className="lg:text-3xl">Hello,</h2>
           <h2 className=" lg:text-7xl text-4xl">
             I am <span className="text-cyan-400/100">Shakil</span>
@@ -26,9 +26,9 @@ const AboutMe = () => {
             </button>
           </div>
         </div>
-        <figure className=" lg:w-2/3">
+        {/* <figure className=" lg:w-2/3">
           <img src={banner} alt="Album" />
-        </figure>
+        </figure> */}
       </div>
     </section>
   );
