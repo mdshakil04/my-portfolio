@@ -1,20 +1,34 @@
-import banner from "../../assets/Images/My W-bg pic/My-pic (3).png"
+import banner from "../../assets/Images/My W-bg pic/new-banner.png";
 const AboutMe = () => {
-    return (
-        <section>
-      <div className=" container mx-auto md:flex md:justify-between items-center text-center">
-        <div className=" md:w-1/2 ">
-            <h2 className=" text-3xl md:text-5xl">Hello,</h2>
-          <h1 className="mb-2 text-5xl md:text-7xl font-bold"> I'm Shakil</h1>
-          <h2 className="text-2xl mb-2 font-bold">Front-End Developer | Cyber Security Analyst</h2>
-          <p className="mb-5">
-             My expertise lies in seamlessly transforming designs from PSD, XD, and Figma to HTML, ensuring every detail is faithfully translated to CODE. I'm all about delivering websites that not only look great but also function flawlessly. ⚛️ I'm well-versed in modern web technologies like REACT, JavaScript, Tailwind CSS, Bootstrap, and DaisyUI. "🌐 Let's collaborate to bring your web ideas to life"
+  return (
+    <section>
+      <div className="card lg:card-side  h-screen ">
+        <div className=" lg:w-1/2 flex flex-col justify-center md:pl-24 p-4 text-center">
+          <h2 className="lg:text-3xl">Hello,</h2>
+          <h2 className=" lg:text-7xl text-4xl">
+            I am <span className="text-cyan-400/100">Shakil</span>
+          </h2>
+          <p className=" font-bold md:text-2xl">
+            {" "}
+            Front-End Developer | Cyber Security Analyst
           </p>
-          <button className="btn btn-outline btn-info">Checkout My Resume</button>
+          <p className=" mt-4">
+            My expertise lies in seamlessly transforming designs from PSD, XD,
+            and Figma to HTML, ensuring every detail is faithfully translated to
+            CODE. I am all about delivering websites that not only look great but
+            also function flawlessly. ⚛️ I am well-versed in modern web
+            technologies like REACT, JavaScript, Tailwind CSS, Bootstrap, and
+            DaisyUI. 🌐 Let s collaborate to bring your web ideas to life
+          </p>
+          <div>
+            <button className="btn btn-outline mt-4 btn-info">
+              Checkout My Resume
+            </button>
+          </div>
         </div>
-        <div >
-            <img src={banner} alt="" />
-        </div>
+        <figure className=" lg:w-2/3">
+          <img src={banner} alt="Album" />
+        </figure>
       </div>
     </section>
   );

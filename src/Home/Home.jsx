@@ -1,12 +1,12 @@
 import Projects from "../Components/Projects/Projects";
 import Skills from "../Components/Skills/Skills";
-import Banner from "./Banner/Banner";
 import "../../src/app.scss"
+import Hero from "./Hero/Hero";
 
 const Home = () => {
     return (
         <div>
-            <Banner></Banner>
+            <Hero></Hero>
             <Skills></Skills>
             <Projects></Projects>
         </div>
