@@ -3,6 +3,7 @@ import Skills from "../Components/Skills/Skills";
 import "../../src/app.scss"
 import Hero from "./Hero/Hero";
 import ContactMe from "../Components/ContactMe/ContactMe";
+import AboutMe from "../Components/AboutMe/AboutMe";
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Skills></Skills>
             <Projects></Projects>
             <ContactMe></ContactMe>
+            <AboutMe></AboutMe>
         </div>
     );
 };

@@ -1,34 +1,26 @@
-// import banner from "../../assets/Images/My W-bg pic/new-banner.png";
+import banner from "../../assets/Images/My W-bg pic/banner.jpg";
 const AboutMe = () => {
   return (
-    <section>
-      <div className="card   h-screen ">
-        <div className=" text-center p-24 px-32">
-          <h2 className="lg:text-3xl">Hello,</h2>
-          <h2 className=" lg:text-7xl text-4xl">
-            I am <span className="text-cyan-400/100">Shakil</span>
-          </h2>
-          <p className=" font-bold md:text-2xl">
-            {" "}
-            Front-End Developer | Cyber Security Analyst
-          </p>
-          <p className=" mt-4">
-            My expertise lies in seamlessly transforming designs from PSD, XD,
-            and Figma to HTML, ensuring every detail is faithfully translated to
-            CODE. I am all about delivering websites that not only look great but
-            also function flawlessly. ⚛️ I am well-versed in modern web
-            technologies like REACT, JavaScript, Tailwind CSS, Bootstrap, and
-            DaisyUI. 🌐 Let s collaborate to bring your web ideas to life
-          </p>
-          <div>
-            <button className="btn btn-outline mt-4 btn-info">
-              Checkout My Resume
-            </button>
+    <section className=" h-auto mb-12">
+      <h2 className="md:text-6xl text-3xl text-center mb-8">My Qualifications<span className=" text-7xl text-cyan-400">..</span></h2>
+      <div className="card h-auto container mx-auto  ">
+        <div className="card card-side bg-[#111132] shadow-xl">
+          <figure className=" w-1/4">
+            <img
+            className=" h-full"
+              src={banner}
+              alt="Banner"
+            />
+          </figure>
+          <div className=" p-4 lg:mt-8">
+            <h2 className=" text-4xl border-b-2 w-1/5">Educations </h2>
+            <p className=" text-xl ml-4 my-4">I have completed my Post-graduation degree from the National University of Bangladesh majoring in <span className="font-bold text-cyan-500"> Physics</span>.</p>
+            <h2 className=" text-4xl border-b-2 w-1/5">Web Development </h2>
+            <p className=" text-xl ml-4 my-4">I have completed Web Development Course from Programming Hero in 2021. My student ID is <span className=" text-cyan-500 font-bold">WEB4-1059</span> </p>
+            <h2 className=" text-4xl border-b-2 w-1/5">Cyber Security </h2>
+            <p className=" text-xl ml-4 my-4">I have completed Cyber Security Course from ARENA WEB SECURITY in 2022. My verification no is <span className=" text-cyan-500 font-bold"> V-A38W2109S20</span></p>
           </div>
         </div>
-        {/* <figure className=" lg:w-2/3">
-          <img src={banner} alt="Album" />
-        </figure> */}
       </div>
     </section>
   );

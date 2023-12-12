@@ -20,10 +20,8 @@ const Hero = () => {
           like REACT, JavaScript, Tailwind CSS, Bootstrap, and DaisyUI. 🌐 Let s
           collaborate to bring your web ideas to life
         </p>
-        <div>
-          <button className="btn btn-outline mt-4 btn-info">
-            Checkout My Resume
-          </button>
+        <div className=" mt-4">
+       
         </div>
       </div>
       <figure className=" lg:absolute image-container">

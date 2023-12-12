@@ -59,7 +59,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1 text-lg">{navLinks}</ul>
       </div>
       <div className="navbar-end ">
-        <a href="https://github.com/mdshakil04" className="btn btn-outline btn-info">GitHub Profile</a>
+        <a href="https://github.com/mdshakil04" target="blank" className="btn btn-outline btn-info">Checkout My Resume</a>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import iww from "../../assets/Images/My Projects/wedding-world.png";
 const Projects = () => {
   return (
     <section>
-      <h2 className="text-5xl text-center mb-8">My Projects<span className=" text-7xl text-cyan-400">.</span></h2>
+      <h2 className="text-5xl text-center mb-8">My Projects<span className=" text-7xl text-cyan-400">..</span></h2>
       <div className=" container mx-auto md:grid md:grid-cols-2  p-8 gap-8 h-full">
         <div className="card bg-[#111132] shadow-xl">
           <figure>

@@ -2,9 +2,9 @@ const Skills = () => {
   return (
     <section className=" container mx-auto text-center h-auto">
       <h2 className="text-5xl text-center mb-4">
-        My Skills<span className=" text-7xl text-cyan-400">.</span>
+        My Skills<span className=" text-7xl text-cyan-400">..</span>
       </h2>
-      <div className=" md:flex gap-8  justify-center">
+      <div className=" md:flex gap-8 justify-center">
         {/* Web Development */}
         <div className="card bg-[#111132] text-neutral-content">
           <div className="card-body items-center text-center">
