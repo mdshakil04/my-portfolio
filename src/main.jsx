@@ -11,6 +11,7 @@ import AboutMe from './Components/AboutMe/AboutMe';
 import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
+import ContactMe from './Components/ContactMe/ContactMe';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
         path:"/aboutMe",
         element:<AboutMe></AboutMe>
       },
+      {
+        path:"/contactMe",
+        element:<ContactMe></ContactMe>
+      }
     ]
   },
 ]);

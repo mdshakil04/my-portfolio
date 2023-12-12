@@ -2,6 +2,7 @@ import Projects from "../Components/Projects/Projects";
 import Skills from "../Components/Skills/Skills";
 import "../../src/app.scss"
 import Hero from "./Hero/Hero";
+import ContactMe from "../Components/ContactMe/ContactMe";
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Hero></Hero>
             <Skills></Skills>
             <Projects></Projects>
+            <ContactMe></ContactMe>
         </div>
     );
 };
