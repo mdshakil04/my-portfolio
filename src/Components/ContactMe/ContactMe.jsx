@@ -22,7 +22,8 @@ const ContactMe = () => {
         (result) => {
           console.log(result.text);
           Swal.fire({
-            title: "Message sent!",
+            title: "Email sent!",
+            text:"Thank Your For your Message",
             icon: "success"
           });
           console.log("Message sent")
@@ -52,7 +53,7 @@ const ContactMe = () => {
                 scale:1.05,
                 boxShadow:"0px 0px 8px rgb(255,255,255)",
               }}
-            className=" btn btn-outline btn-info mt-4" type="submit" value="Send" />
+            className=" btn btn-outline btn-info mt-4 text-xl" type="submit" value="Send Email" />
           </form>
         </div>
         <div 
