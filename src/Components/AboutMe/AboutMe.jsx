@@ -1,9 +1,15 @@
+import { motion } from "framer-motion";
 import banner from "../../assets/Images/My W-bg pic/banner.jpg";
 const AboutMe = () => {
   return (
     <section className=" h-auto mb-12">
       <h2 className="md:text-6xl text-3xl text-center mb-8">My Qualifications<span className=" text-7xl text-cyan-400">..</span></h2>
-      <div className="card h-auto container mx-auto  ">
+      <motion.div 
+      whileHover={{
+        scale:1.05,
+        boxShadow:"0px 0px 8px rgb(255,255,255)",
+      }}
+      className="card h-auto container mx-auto  ">
         <div className="card card-side bg-[#111132] shadow-xl">
           <figure className=" w-1/4">
             <img
@@ -21,7 +27,7 @@ const AboutMe = () => {
             <p className=" text-xl ml-4 my-4">I have completed Cyber Security Course from ARENA WEB SECURITY in 2022. My verification no is <span className=" text-cyan-500 font-bold"> V-A38W2109S20</span></p>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };

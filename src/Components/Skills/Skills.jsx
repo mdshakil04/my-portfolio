@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 const Skills = () => {
   return (
     <section className=" container mx-auto text-center h-auto">
@@ -6,7 +7,12 @@ const Skills = () => {
       </h2>
       <div className=" md:flex gap-8 justify-center">
         {/* Web Development */}
-        <div className="card bg-[#111132] text-neutral-content">
+        <motion.div 
+        whileHover={{
+          scale:1.05,
+          boxShadow:"0px 0px 8px rgb(255,255,255)",
+        }}
+        className="card bg-[#111132] text-neutral-content">
           <div className="card-body items-center text-center">
             <h2 className="card-title text-4xl">Web Development</h2>
             <div>
@@ -282,9 +288,14 @@ const Skills = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </motion.div>
         {/* Cyber Security */}
-        <div className="card bg-[#111132] text-neutral-content">
+        <motion.div 
+        whileHover={{
+          scale:1.05,
+          boxShadow:"0px 0px 8px rgb(255,255,255)",
+        }}
+        className="card bg-[#111132] text-neutral-content">
           <div className="card-body items-center text-center">
             <h2 className="card-title text-4xl">Soft Skills</h2>
             <div>
@@ -452,7 +463,7 @@ const Skills = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

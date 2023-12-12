@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import contact from "../../assets/Images/My W-bg pic/contact.jpg"
 import Swal from 'sweetalert2'
+import { motion } from "framer-motion";
 
 const ContactMe = () => {
   const form = useRef();
@@ -35,7 +36,8 @@ const ContactMe = () => {
     <div>
          <h2 className=" text-6xl text-center">Email Me<span className=" text-7xl text-cyan-400">..</span></h2>
       <div className=" md:grid md:grid-cols-2 items-center h-">
-        <div className=" h-full">
+        <div 
+        className=" h-full">
           <form 
           className=" flex flex-col p-8"
           ref={form} onSubmit={sendEmail}>
@@ -45,10 +47,16 @@ const ContactMe = () => {
             <input className="input input-bordered text-black" type="email" name="user_email" />
             <label className="label ">Message</label>
             <textarea className="input input-bordered text-black h-[100px]" name="message" />
-            <input  className=" btn btn-outline btn-info mt-4" type="submit" value="Send" />
+            <motion.input 
+            whileHover={{
+                scale:1.05,
+                boxShadow:"0px 0px 8px rgb(255,255,255)",
+              }}
+            className=" btn btn-outline btn-info mt-4" type="submit" value="Send" />
           </form>
         </div>
-        <div className=" md:mt-16">
+        <div 
+        className=" md:mt-16">
             <img src={contact} alt="" />
         </div>
       </div>

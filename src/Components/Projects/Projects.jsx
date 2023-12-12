@@ -2,19 +2,26 @@ import cf from "../../assets/Images/My Projects/community-food.png";
 import lwl from "../../assets/Images/My Projects/learn-with-learner.png";
 import tcp from "../../assets/Images/My Projects/tech-connect.png";
 import iww from "../../assets/Images/My Projects/wedding-world.png";
+import { motion } from "framer-motion";
 const Projects = () => {
   return (
     <section>
       <h2 className="text-5xl text-center mb-8">My Projects<span className=" text-7xl text-cyan-400">..</span></h2>
       <div className=" container mx-auto md:grid md:grid-cols-2  p-8 gap-8 h-full">
-        <div className="card bg-[#111132] shadow-xl">
+        <motion.div 
+        whileHover={{
+          scale:1.05,
+          boxShadow:"0px 0px 8px rgb(255,255,255)",
+        }}
+        className="card bg-[#111132] shadow-xl">
           <figure>
             <img
               src={cf}
               alt="Community Food Bridge"
             />
           </figure>
-          <div className=" p-4">
+          <div
+          className=" p-4">
             <div className=" mt-2 flex gap-2 justify-center">
               <div className="badge badge-accent  font-bold">REACT</div>
               <div className="badge badge-accent  font-bold">MongoDB</div>
@@ -32,8 +39,13 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="card bg-[#111132] shadow-xl">
+        </motion.div>
+        <motion.div 
+        whileHover={{
+          scale:1.05,
+          boxShadow:"0px 0px 8px rgb(255,255,255)",
+        }}
+        className="card bg-[#111132] shadow-xl">
           <figure>
             <img
               src={lwl}
@@ -58,8 +70,13 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="card bg-[#111132] shadow-xl">
+        </motion.div>
+        <motion.div 
+        whileHover={{
+          scale:1.05,
+          boxShadow:"0px 0px 8px rgb(255,255,255)",
+        }}
+        className="card bg-[#111132] shadow-xl">
           <figure>
             <img
               src={tcp}
@@ -84,8 +101,13 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="card bg-[#111132] shadow-xl">
+        </motion.div>
+        <motion.div 
+        whileHover={{
+          scale:1.05,
+          boxShadow:"0px 0px 8px rgb(255,255,255)",
+        }}
+        className="card bg-[#111132] shadow-xl">
           <figure>
             <img
               src={iww}
@@ -110,7 +132,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
