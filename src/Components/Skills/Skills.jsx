@@ -10,7 +10,7 @@ const Skills = () => {
           <div className="card-body items-center text-center">
             <h2 className="card-title text-4xl">Web Development</h2>
             <div>
-              <ul className="menu grid grid-cols-2 rounded-box">
+              <ul className="menu md:grid md:grid-cols-2 rounded-box">
                 <li>
                   <a className=" text-2xl font-bold">
                     <svg
@@ -288,7 +288,7 @@ const Skills = () => {
           <div className="card-body items-center text-center">
             <h2 className="card-title text-4xl">Soft Skills</h2>
             <div>
-              <ul className="menu grid grid-cols-2 rounded-box">
+              <ul className="menu md:grid md:grid-cols-2 rounded-box">
                 <li>
                   <a className=" text-2xl font-bold">
                     <svg
