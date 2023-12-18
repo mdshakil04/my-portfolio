@@ -59,7 +59,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1 text-lg">{navLinks}</ul>
       </div>
       <div className="navbar-end ">
-        <a href="https://drive.google.com/file/d/162mnBaIkaKrCVD3HwBmxL4XsxtpESxbc/view?usp=sharing" target="blank" className="btn btn-outline btn-info">Download My Resume</a>
+        <a href="https://drive.google.com/u/0/uc?id=1uVx8bt5kWuWFdXI9YOCTHnkIC1LZrLwR&export=download" download target="blank"  className="btn btn-sm btn-outline ml-24 w-auto btn-info">Download My Resume</a>
       </div>
     </div>
   );

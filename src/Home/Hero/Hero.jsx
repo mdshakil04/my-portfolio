@@ -1,9 +1,9 @@
-import banner from "../../assets/Images/My W-bg pic/new-banner.png";
+import banner from "../../assets/Images/My W-bg pic/new_hero.png";
 import "./Hero.scss"
 const Hero = () => {
   return (
-    <div className="card lg:card-side heroContainer  ">
-      <div className=" lg:w-1/2 flex flex-col justify-center md:pl-24 p-4 text-center">
+    <div className="card lg:card-side heroContainer h-screen ">
+      <div className=" lg:w-1/2 flex flex-col justify-center md:pl-24 p-4 text-center px-8">
         <h2 className="lg:text-3xl">Hello,</h2>
         <h2 className=" lg:text-7xl text-4xl">
           I am <span className="text-cyan-400/100">Shakil</span>
@@ -24,8 +24,8 @@ const Hero = () => {
        
         </div>
       </div>
-      <figure className=" lg:absolute image-container">
-        <img src={banner} alt="Album" />
+      <figure className=" w-1/2  image-container">
+        <img className="lg:w-2/3 md:mt-36 ml-12 mt-12" src={banner} alt="Album" />
       </figure>
     </div>
   );

@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 const Skills = () => {
   return (
-    <section className=" container mx-auto text-center h-auto">
-      <h2 className="text-5xl text-center mb-4">
-        My Skills<span className=" text-7xl text-cyan-400">..</span>
+    <section className=" container mx-auto text-center h-auto px-4">
+      <h2 className="md:text-5xl text-3xl text-center mb-4">
+        My Skills<span className=" md:text-7xl text-cyan-400">..</span>
       </h2>
-      <div className=" md:flex gap-8 justify-center">
+      <div className=" md:flex gap-8  justify-center">
         {/* Web Development */}
         <motion.div 
         whileHover={{
@@ -13,12 +13,12 @@ const Skills = () => {
           boxShadow:"0px 0px 8px rgb(255,255,255)",
         }}
         className="card bg-[#111132] text-neutral-content">
-          <div className="card-body items-center text-center">
-            <h2 className="card-title text-4xl">Web Development</h2>
+          <div className="card-body items-center text-center p-4">
+            <h2 className="card-title text-2xl lg:text-4xl">Web Development</h2>
             <div>
               <ul className="menu md:grid md:grid-cols-2 rounded-box">
                 <li>
-                  <a className=" text-2xl font-bold">
+                  <a className=" text-xl lg:text-2xl font-bold">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -48,7 +48,7 @@ const Skills = () => {
                   </a>
                 </li>
                 <li>
-                  <a className=" text-2xl font-bold">
+                  <a className=" text-xl lg:text-2xl font-bold">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -78,7 +78,7 @@ const Skills = () => {
                   </a>
                 </li>
                 <li>
-                  <a className=" text-2xl font-bold">
+                  <a className=" text-xl lg:text-2xl font-bold">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -93,11 +93,11 @@ const Skills = () => {
                         d="M29.538,32.947c0.692,1.124,1.444,2.201,3.037,2.201c1.338,0,2.04-0.665,2.04-1.585 c0-1.101-0.726-1.492-2.198-2.133l-0.807-0.344c-2.329-0.988-3.878-2.226-3.878-4.841c0-2.41,1.845-4.244,4.728-4.244 c2.053,0,3.528,0.711,4.592,2.573l-2.514,1.607c-0.553-0.988-1.151-1.377-2.078-1.377c-0.946,0-1.545,0.597-1.545,1.377 c0,0.964,0.6,1.354,1.985,1.951l0.807,0.344C36.452,29.645,38,30.839,38,33.523C38,36.415,35.716,38,32.65,38 c-2.999,0-4.702-1.505-5.65-3.368L29.538,32.947z M17.952,33.029c0.506,0.906,1.275,1.603,2.381,1.603 c1.058,0,1.667-0.418,1.667-2.043V22h3.333v11.101c0,3.367-1.953,4.899-4.805,4.899c-2.577,0-4.437-1.746-5.195-3.368 L17.952,33.029z"
                       ></path>
                     </svg>
-                    JavaScript & ES-6
+                    JavaScript
                   </a>
                 </li>
                 <li>
-                  <a className=" text-2xl font-bold">
+                  <a className=" text-xl lg:text-2xl font-bold">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -129,7 +129,7 @@ const Skills = () => {
                   </a>
                 </li>
                 <li>
-                  <a className=" text-2xl font-bold">
+                  <a className=" text-xl lg:text-2xl font-bold">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -151,7 +151,7 @@ const Skills = () => {
                   </a>
                 </li>
                 <li>
-                  <a className=" text-2xl font-bold">
+                  <a className=" text-xl lg:text-2xl font-bold">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -182,7 +182,7 @@ const Skills = () => {
                   </a>
                 </li>
                 <li>
-                  <a className=" text-2xl font-bold">
+                  <a className=" text-xl lg:text-2xl font-bold">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -212,7 +212,7 @@ const Skills = () => {
                   </a>
                 </li>
                 <li>
-                  <a className=" text-2xl font-bold">
+                  <a className=" text-xl lg:text-2xl font-bold">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -246,7 +246,7 @@ const Skills = () => {
                   </a>
                 </li>
                 <li>
-                  <a className=" text-2xl font-bold">
+                  <a className=" text-xl lg:text-2xl font-bold">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -268,7 +268,7 @@ const Skills = () => {
                   </a>
                 </li>
                 <li>
-                  <a className=" text-2xl font-bold">
+                  <a className=" text-xl lg:text-2xl font-bold">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -289,7 +289,7 @@ const Skills = () => {
             </div>
           </div>
         </motion.div>
-        {/* Cyber Security */}
+        {/* Soft Skills */}
         <motion.div 
         whileHover={{
           scale:1.05,
@@ -297,11 +297,11 @@ const Skills = () => {
         }}
         className="card bg-[#111132] text-neutral-content">
           <div className="card-body items-center text-center">
-            <h2 className="card-title text-4xl">Soft Skills</h2>
+            <h2 className="card-title lg:text-4xl text-2xl">Soft Skills</h2>
             <div>
               <ul className="menu md:grid md:grid-cols-2 rounded-box">
                 <li>
-                  <a className=" text-2xl font-bold">
+                  <a className=" text-xl lg:text-2xl font-bold">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -327,7 +327,7 @@ const Skills = () => {
                   </a>
                 </li>
                 <li>
-                  <a className=" text-2xl font-bold">
+                  <a className=" text-xl lg:text-2xl font-bold">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -346,7 +346,7 @@ const Skills = () => {
                   </a>
                 </li>
                 <li>
-                  <a className=" text-2xl font-bold">
+                  <a className=" text-xl lg:text-2xl font-bold">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -378,7 +378,7 @@ const Skills = () => {
                   </a>
                 </li>
                 <li>
-                  <a className=" text-2xl font-bold">
+                  <a className=" text-xl lg:text-2xl font-bold">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -400,7 +400,7 @@ const Skills = () => {
                   </a>
                 </li>
                 <li>
-                  <a className=" text-2xl font-bold">
+                  <a className=" text-xl lg:text-2xl font-bold">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"
@@ -427,11 +427,11 @@ const Skills = () => {
                         d="M24,10c0,0-6,5-6,13c0,5.2,3.3,8.5,5,10l1-3V10z"
                       ></path>
                     </svg>
-                    Photoshope
+                    Photoshop
                   </a>
                 </li>
                 <li>
-                  <a className=" text-2xl font-bold">
+                  <a className=" text-xl lg:text-2xl font-bold">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       x="0px"

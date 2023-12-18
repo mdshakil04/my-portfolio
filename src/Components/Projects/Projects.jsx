@@ -7,13 +7,13 @@ const Projects = () => {
   return (
     <section>
       <h2 className="text-5xl text-center mb-8">My Projects<span className=" text-7xl text-cyan-400">..</span></h2>
-      <div className=" container mx-auto md:grid md:grid-cols-2  p-8 gap-8 h-full">
+      <div className=" container mx-auto lg:grid-cols-4 md:grid md:grid-cols-2  p-8 gap-8 h-full">
         <motion.div 
         whileHover={{
           scale:1.05,
           boxShadow:"0px 0px 8px rgb(255,255,255)",
         }}
-        className="card bg-[#111132] shadow-xl">
+        className="card bg-[#111132] mb-4 shadow-xl">
           <figure>
             <img
               src={cf}
@@ -45,7 +45,7 @@ const Projects = () => {
           scale:1.05,
           boxShadow:"0px 0px 8px rgb(255,255,255)",
         }}
-        className="card bg-[#111132] shadow-xl">
+        className="card bg-[#111132] mb-4 shadow-xl">
           <figure>
             <img
               src={lwl}
@@ -76,7 +76,7 @@ const Projects = () => {
           scale:1.05,
           boxShadow:"0px 0px 8px rgb(255,255,255)",
         }}
-        className="card bg-[#111132] shadow-xl">
+        className="card bg-[#111132] mb-4 shadow-xl">
           <figure>
             <img
               src={tcp}
@@ -107,7 +107,7 @@ const Projects = () => {
           scale:1.05,
           boxShadow:"0px 0px 8px rgb(255,255,255)",
         }}
-        className="card bg-[#111132] shadow-xl">
+        className="card bg-[#111132] mb-4 shadow-xl">
           <figure>
             <img
               src={iww}
