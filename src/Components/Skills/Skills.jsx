@@ -12,7 +12,7 @@ const Skills = () => {
           scale:1.05,
           boxShadow:"0px 0px 8px rgb(255,255,255)",
         }}
-        className="card border-4">
+        className="card border-4 mt-4">
           <div className="card-body items-center text-center p-4">
             <h2 className="card-title text-2xl lg:text-4xl">Web Development</h2>
             <div>
@@ -295,7 +295,7 @@ const Skills = () => {
           scale:1.05,
           boxShadow:"0px 0px 8px rgb(255,255,255)",
         }}
-        className="card border-4">
+        className="card border-4 mt-4">
           <div className="card-body items-center text-center">
             <h2 className="card-title lg:text-4xl text-2xl">Soft Skills</h2>
             <div>

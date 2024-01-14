@@ -1,8 +1,8 @@
 import banner from "../../assets/Images/My W-bg pic/new_hero.png";
-import "./Hero.scss"
+// import "./Hero.scss"
 const Hero = () => {
   return (
-    <div className="card lg:card-side heroContainer h-screen ">
+    <div className="card lg:card-side">
       <div className=" lg:w-1/2 flex flex-col justify-center md:pl-24 p-4 text-center px-8">
         <h2 className="lg:text-3xl">Hello,</h2>
         <h2 className=" lg:text-7xl text-4xl">
@@ -24,8 +24,8 @@ const Hero = () => {
        
         </div>
       </div>
-      <figure className=" w-1/2  image-container">
-        <img className="lg:w-2/3 md:mt-36 ml-12 mt-12" src={banner} alt="Album" />
+      <figure className="  image-container">
+        <img className="lg:w-2/3 w-full mt-12" src={banner} alt="Album" />
       </figure>
     </div>
   );
