@@ -14,18 +14,18 @@ const Hero = () => {
         </p>
         <p className=" mt-4">
           My expertise lies in seamlessly transforming designs from PSD, XD, and
-          Figma to HTML, ensuring every detail is faithfully translated to CODE.
+          Figma to HTML, ensuring every detail is faithfully translated to <span className=" text-cyan-700 font-bold">CODE</span>.
           I am all about delivering websites that not only look great but also
           function flawlessly. ⚛️ I am well-versed in modern web technologies
           like REACT, JavaScript, Tailwind CSS, Bootstrap, and DaisyUI. 🌐 Let s
-          collaborate to bring your web ideas to life
+          collaborate to bring your web ideas to life.
         </p>
         <div className=" mt-4">
        
         </div>
       </div>
       <figure className="  image-container">
-        <img className="lg:w-2/3 w-full mt-12" src={banner} alt="Album" />
+        <img className="lg:w-2/3 mt-12" src={banner} alt="Album" />
       </figure>
     </div>
   );

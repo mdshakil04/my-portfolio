@@ -34,13 +34,13 @@ const ContactMe = () => {
       );
   };
   return (
-    <div>
-         <h2 className=" text-6xl text-center">Email Me<span className=" text-7xl text-cyan-400">..</span></h2>
+    <div className=" container shadow-xl p-4 rounded-xl mx-auto">
+         <h2 className=" text-6xl text-center">Contact<span className=" text-7xl text-cyan-400">..</span></h2>
       <div className=" md:grid md:grid-cols-2 items-center h-">
         <div 
         className=" h-full">
           <form 
-          className=" flex flex-col p-8"
+          className="  flex flex-col p-8"
           ref={form} onSubmit={sendEmail}>
             <label className="label">Name</label>
             <input className="input input-bordered text-black" type="text" name="user_name" />
@@ -58,7 +58,7 @@ const ContactMe = () => {
         </div>
         <div 
         className=" md:mt-16">
-            <img src={contact} alt="" />
+            <img className=" rounded-xl" src={contact} alt="" />
         </div>
       </div>
     </div>
