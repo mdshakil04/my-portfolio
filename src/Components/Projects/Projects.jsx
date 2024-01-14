@@ -13,7 +13,7 @@ const Projects = () => {
           scale:1.05,
           boxShadow:"0px 0px 8px rgb(255,255,255)",
         }}
-        className="card bg-[#111132] mb-4 shadow-xl">
+        className="card  mb-4 shadow-xl">
           <figure>
             <img
               src={cf}
@@ -45,7 +45,7 @@ const Projects = () => {
           scale:1.05,
           boxShadow:"0px 0px 8px rgb(255,255,255)",
         }}
-        className="card bg-[#111132] mb-4 shadow-xl">
+        className="card  mb-4 shadow-xl">
           <figure>
             <img
               src={lwl}
@@ -76,7 +76,7 @@ const Projects = () => {
           scale:1.05,
           boxShadow:"0px 0px 8px rgb(255,255,255)",
         }}
-        className="card bg-[#111132] mb-4 shadow-xl">
+        className="card  mb-4 shadow-xl">
           <figure>
             <img
               src={tcp}
@@ -96,8 +96,8 @@ const Projects = () => {
               </h2>
               <p>It is a e-commerce website of tech product. where any one by product, and admin can add, delete, or update their product.</p>
               <div className="card-actions mt-12">
-                <a href="https://tech-connect-pro.web.app" className="btn btn-outline text-white btn-neutral">Live Link</a>
-                <a href="https://github.com/mdshakil04/tech-connect-pro-client" className="btn text-white btn-outline btn-neutral">Code Link</a>
+                <a href="https://tech-connect-pro.web.app" className="btn btn-outline  btn-neutral">Live Link</a>
+                <a href="https://github.com/mdshakil04/tech-connect-pro-client" className="btn  btn-outline btn-neutral">Code Link</a>
               </div>
             </div>
           </div>
@@ -107,7 +107,7 @@ const Projects = () => {
           scale:1.05,
           boxShadow:"0px 0px 8px rgb(255,255,255)",
         }}
-        className="card bg-[#111132] mb-4 shadow-xl">
+        className="card  mb-4 shadow-xl">
           <figure>
             <img
               src={iww}
