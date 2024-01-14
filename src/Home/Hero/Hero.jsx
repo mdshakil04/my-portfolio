@@ -21,7 +21,7 @@ const Hero = () => {
           collaborate to bring your web ideas to life.
         </p>
       </div>
-      <figure className=" lg:w-1/2 h-screen">
+      <figure className=" lg:w-1/2 lg:h-screen">
         <img className=" lg:w-full" src={banner} alt="Album" />
       </figure>
     </div>

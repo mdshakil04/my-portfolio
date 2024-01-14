@@ -7,7 +7,7 @@ import AboutMe from "../Components/AboutMe/AboutMe";
 
 const Home = () => {
     return (
-        <div className=" bg-slate-100">
+        <div className="static pt-16 bg-[#F3F8FF]">
             <Hero></Hero>
             <Skills></Skills>
             <Projects></Projects>
