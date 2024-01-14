@@ -34,7 +34,7 @@ const ContactMe = () => {
       );
   };
   return (
-    <div className=" container shadow-xl p-4 rounded-xl mx-auto">
+    <div className=" container shadow-xl p-4 border rounded-xl mx-auto">
          <h2 className=" text-6xl text-center">Contact<span className=" text-7xl text-cyan-400">..</span></h2>
       <div className=" md:grid md:grid-cols-2 items-center h-">
         <div 

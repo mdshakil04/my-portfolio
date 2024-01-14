@@ -1,7 +1,7 @@
 import logo from "../../assets/new-logo.png"
 const Footer = () => {
   return (
-    <footer className="footer footer-center mt-8 ">
+    <footer className="footer bg-slate-100 footer-center pt-8 ">
       <aside>
         <img src={logo} alt="logo" />
         <h2>email: md.shakil23@yahoo.com</h2>

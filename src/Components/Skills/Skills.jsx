@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 const Skills = () => {
   return (
-    <section className=" container mx-auto text-center h-auto px-4">
+    <section className=" lg:mt-12 container mx-auto text-center h-auto px-4">
       <h2 className="md:text-5xl text-3xl text-center mb-4">
         My Skills<span className=" md:text-7xl text-cyan-400">..</span>
       </h2>

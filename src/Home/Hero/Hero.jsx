@@ -2,8 +2,8 @@ import banner from "../../assets/Images/My W-bg pic/new_hero.png";
 // import "./Hero.scss"
 const Hero = () => {
   return (
-    <div className="card lg:card-side">
-      <div className=" lg:w-1/2 flex flex-col justify-center md:pl-24 p-4 text-center px-8">
+    <div className="lg:flex lg:justify-evenly ">
+      <div className="  lg:flex lg:flex-col lg:justify-center lg:w-1/2  p-4 text-center px-8">
         <h2 className="lg:text-3xl">Hello,</h2>
         <h2 className=" lg:text-7xl text-4xl">
           I am <span className="text-cyan-400/100">Shakil</span>
@@ -20,12 +20,9 @@ const Hero = () => {
           like REACT, JavaScript, Tailwind CSS, Bootstrap, and DaisyUI. 🌐 Let s
           collaborate to bring your web ideas to life.
         </p>
-        <div className=" mt-4">
-       
-        </div>
       </div>
-      <figure className="  image-container">
-        <img className="lg:w-2/3 mt-12" src={banner} alt="Album" />
+      <figure className=" lg:w-1/2 h-screen">
+        <img className=" lg:w-full" src={banner} alt="Album" />
       </figure>
     </div>
   );
