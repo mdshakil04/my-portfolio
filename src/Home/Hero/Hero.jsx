@@ -1,31 +1,38 @@
-import banner from "../../assets/Images/My W-bg pic/new_hero.png";
+// import banner from "../../assets/Images/My W-bg pic/new_hero.png";
 // import "./Hero.scss"
+import banner2 from "../../assets/Images/My W-bg pic/Banner-bg.png";
 const Hero = () => {
   return (
-    <div className="lg:flex lg:justify-evenly ">
-      <div className="  lg:flex lg:flex-col lg:justify-center lg:w-1/2  p-4 text-center px-8">
-        <h2 className="lg:text-3xl">Hello,</h2>
-        <h2 className=" lg:text-7xl text-4xl">
-          I am <span className="text-cyan-400/100">Shakil</span>
-        </h2>
-        <p className=" font-bold md:text-2xl">
-          {" "}
-          Front-End Developer | Cyber Security Analyst
-        </p>
-        <p className=" mt-4">
-          My expertise lies in seamlessly transforming designs from PSD, XD, and
-          Figma to HTML, ensuring every detail is faithfully translated to <span className=" text-cyan-700 font-bold">CODE</span>.
-          I am all about delivering websites that not only look great but also
-          function flawlessly. ⚛️ I am well-versed in modern web technologies
-          like REACT, JavaScript, Tailwind CSS, Bootstrap, and DaisyUI. 🌐 Let s
-          collaborate to bring your web ideas to life.
-        </p>
+    <div className="hero min-h-screen ">
+      <div className="hero-content flex-col lg:flex-row-reverse lg:h-[600px] ">
+        <img src={banner2} className="min-h-screen  lg:-mt-36" />
+        <div className=" ">
+          <h1 className="text-5xl font-bold">
+            Front End Developer<br/>React Developer<br/> Ethical Hacker
+          </h1>
+          <p className="py-6">
+            My expertise lies in seamlessly transforming designs from PSD, XD,
+            and Figma to HTML, ensuring every detail is faithfully translated to{" "}
+            <span className=" text-cyan-700 font-bold">CODE</span>. I am all
+            about delivering websites that not only look great but also function
+            flawlessly. ⚛️ I am well-versed in modern web technologies like
+            REACT, JavaScript, Tailwind CSS, Bootstrap, and DaisyUI. 🌐 Let s
+            collaborate to bring your web ideas to life.
+          </p>
+        </div>
       </div>
-      <figure className=" lg:w-1/2 lg:h-screen">
-        <img className=" lg:w-full" src={banner} alt="Album" />
-      </figure>
     </div>
   );
 };
+{
+  /* <p className=" mt-4">
+My expertise lies in seamlessly transforming designs from PSD, XD, and
+Figma to HTML, ensuring every detail is faithfully translated to <span className=" text-cyan-700 font-bold">CODE</span>.
+I am all about delivering websites that not only look great but also
+function flawlessly. ⚛️ I am well-versed in modern web technologies
+like REACT, JavaScript, Tailwind CSS, Bootstrap, and DaisyUI. 🌐 Let s
+collaborate to bring your web ideas to life.
+</p> */
+}
 
 export default Hero;
