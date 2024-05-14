@@ -7,7 +7,7 @@ import AboutMe from "../Components/AboutMe/AboutMe";
 
 const Home = () => {
     return (
-        <div className="static pt-16 bg-[#F3F8FF]">
+        <div className="static pt-16 bg-[#DAF5FF]">
             <Hero></Hero>
             <Skills></Skills>
             <Projects></Projects>
@@ -16,5 +16,5 @@ const Home = () => {
         </div>
     );
 };
-
+// #F3F8FF #E1F7F5
 export default Home;
