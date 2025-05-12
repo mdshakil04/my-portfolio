@@ -2,6 +2,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/new-logo.png";
+import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -73,12 +74,12 @@ const Navbar = () => {
         </div>
         <div className="navbar-end ">
           <a
-            href="https://drive.google.com/file/d/16B9DIT8j74L4zplGi0Tto8pweM-sHKWw/view?usp=sharing"
+            href="https://github.com/mdshakil04"
             download
             target="blank"
-            className="btn btn-sm btn-outline ml-24 w-auto btn-info"
+            className="btn btn-outline btn-info ml-24 w-auto text-white text-3xl"
           >
-            Resume
+            <FaGithub/>
           </a>
         </div>
       </div>
