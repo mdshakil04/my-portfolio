@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="hero-content flex-col lg:flex-row-reverse lg:h-[600px] ">
         <img src={banner} className="min-h-screen  lg:-mt-36" />
         <div className=" ">
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-5xl font-bold text-white">
             Front End Developer<br/>React Developer<br/> Ethical Hacker
           </h1>
           <p className="py-6">

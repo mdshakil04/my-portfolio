@@ -24,9 +24,9 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar   bg-[#F3F8FF]  fixed font-bold rounded-xl">
+    <div className="navbar fixed font-bold rounded-xl" >
       <div className="">
-        <img className="w-2/3" src={logo} alt="Shakil" />
+        <img className="w-2/3" src={logo} alt="MD Shakil" />
       </div>
       <div className="navbar-start">
         <div className="dropdown">
