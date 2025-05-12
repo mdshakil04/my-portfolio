@@ -43,11 +43,11 @@ const ContactMe = () => {
           className="  flex flex-col p-8"
           ref={form} onSubmit={sendEmail}>
             <label className="label">Name</label>
-            <input className="input input-bordered text-black" type="text" name="user_name" />
+            <input className="input input-bordered " type="text" name="user_name" />
             <label className="label">Email</label>
-            <input className="input input-bordered text-black" type="email" name="user_email" />
+            <input className="input input-bordered " type="email" name="user_email" />
             <label className="label ">Message</label>
-            <textarea className="input input-bordered text-black h-[100px]" name="message" />
+            <textarea className="input input-bordered  h-[100px]" name="message" />
             <motion.input 
             whileHover={{
                 scale:1.05,
