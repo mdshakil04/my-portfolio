@@ -12,9 +12,10 @@ const Skills = () => {
           scale:1.05,
           boxShadow:"0px 0px 8px rgb(255,255,255)",
         }}
-        className="card bg-base-100  mt-4">
+        className="card  mt-4">
           <div className="card-body items-center text-center p-4">
             <h2 className="card-title text-2xl lg:text-4xl">Web Development</h2>
+            <div className="lg:w-96 h-1 bg-[#8245ec] mx-auto mt-2"></div>
             <div>
               <ul className="menu md:grid md:grid-cols-2 rounded-box">
                 <li>
@@ -295,9 +296,10 @@ const Skills = () => {
           scale:1.05,
           boxShadow:"0px 0px 8px rgb(255,255,255)",
         }}
-        className="card bg-base-100 mt-4">
+        className="card mt-4">
           <div className="card-body items-center text-center">
             <h2 className="card-title lg:text-4xl text-2xl">Soft Skills</h2>
+            <div className="lg:w-52 h-1 bg-[#8245ec] mx-auto mt-2"></div>
             <div>
               <ul className="menu md:grid md:grid-cols-2 rounded-box">
                 <li>

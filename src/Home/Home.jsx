@@ -7,7 +7,7 @@ import AboutMe from "../Components/AboutMe/AboutMe";
 
 const Home = () => {
     return (
-        <div className="static pt-16 ">
+        <div className="pt-16 ">
             <Hero></Hero>
             <Skills></Skills>
             <Projects></Projects>

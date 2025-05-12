@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import banner from "../../assets/Images/Banner/Banner-bg.png";
+// import banner from "../../assets/Images/Banner/Banner-bg.png";
 const AboutMe = () => {
   return (
     <section className=" h-auto mb-12">
@@ -19,13 +19,13 @@ const AboutMe = () => {
             <h2 className=" text-4xl border-b-2 w-1/5">Cyber Security </h2>
             <p className=" text-xl ml-4 my-4">I have completed Cyber Security Course from ARENA WEB SECURITY in 2022. My verification no is <span className=" text-cyan-500 font-bold"> V-A38W2109S20</span></p>
           </div>
-          <figure className=" w-1/4">
+          {/* <figure className=" w-1/4">
             <img
             className=" h-full"
               src={banner}
               alt="Banner"
             />
-          </figure>
+          </figure> */}
         </div>
       </motion.div>
     </section>

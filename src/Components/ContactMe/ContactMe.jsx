@@ -34,11 +34,10 @@ const ContactMe = () => {
       );
   };
   return (
-    <div className=" container  p-4  mx-auto">
+    <div className=" container mt-20 mx-auto">
          <h2 className=" text-6xl text-center">Contact<span className=" text-7xl text-cyan-400">..</span></h2>
-      <div className=" md:grid md:grid-cols-2 items-center h-">
-        <div 
-        className=" h-full">
+      <div className=" md:grid md:grid-cols-2 items-center">
+        <div >
           <form 
           className="  flex flex-col p-8"
           ref={form} onSubmit={sendEmail}>
