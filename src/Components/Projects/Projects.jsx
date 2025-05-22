@@ -1,4 +1,4 @@
-import cf from "../../assets/Images/My Projects/community-food.png";
+import cf from "../../assets/Images/My Projects/BookSwiftly.png";
 import lwl from "../../assets/Images/My Projects/learn-with-learner.png";
 import tcp from "../../assets/Images/My Projects/tech-connect.png";
 import iww from "../../assets/Images/My Projects/wedding-world.png";
@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section>
       <h2 className="text-5xl text-center mb-8">My Projects<span className=" text-7xl text-cyan-400">..</span></h2>
-      <div className=" container mx-auto lg:grid-cols-4 md:grid md:grid-cols-2  p-8 gap-8 h-full">
+      <div className=" container mx-auto lg:flex md:grid md:grid-cols-2  p-8 gap-8 h-full">
         <motion.div 
         whileHover={{
           scale:1.05,
@@ -17,25 +17,25 @@ const Projects = () => {
           <figure>
             <img
               src={cf}
-              alt="Community Food Bridge"
+              alt="Book Swiftly"
             />
           </figure>
           <div
           className=" p-4">
-            <div className=" mt-2 flex gap-2 justify-center">
+            {/* <div className=" mt-2 flex gap-2 justify-center">
               <div className="badge badge-accent  font-bold">REACT</div>
               <div className="badge badge-accent  font-bold">MongoDB</div>
               <div className="badge badge-accent  font-bold">Firebase</div>
               <div className="badge badge-accent  font-bold">Node.js</div>
-            </div>
+            </div> */}
             <div className=" mt-4">
               <h2 className="card-title text-3xl">
-                Community Food Bridge
+                Book Swiftly
               </h2>
-              <p>This is Food Sharing Website. Where anyone can donate food and get food who need. User also can donate money.</p>
+              <p>Book Swiftly is a user-friendly online booking platform tourist. It allows easy appointment scheduling, real-time updates, and supports multiple services.</p>
               <div className="card-actions my-4">
-                <a href="https://community-food-bridge.web.app" className="btn btn-outline btn-accent">Live Link</a>
-                <a href="https://github.com/mdshakil04/community-food-bridge-client" className="btn btn-outline btn-accent">Code Link</a>
+                <a href="https://book-swiftly.web.app/" className="btn btn-outline btn-accent">Live Link</a>
+                <a href="https://github.com/mdshakil04/learn-with-learners-client" className="btn btn-outline btn-accent">Code Link</a>
               </div>
             </div>
           </div>
@@ -53,12 +53,12 @@ const Projects = () => {
             />
           </figure>
           <div className=" p-4">
-            <div className=" mt-2 flex gap-2  justify-center">
+            {/* <div className=" mt-2 flex gap-2  justify-center">
               <div className="badge badge-success text-gray font-bold">REACT</div>
               <div className="badge badge-success text-gray font-bold">MongoDB</div>
               <div className="badge badge-success text-gray font-bold">Firebase</div>
               <div className="badge badge-success text-gray font-bold">Node.js</div>
-            </div>
+            </div> */}
             <div className=" mt-4">
               <h2 className="card-title text-3xl">
                 Learn With Learners
@@ -70,8 +70,8 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </motion.div>
-        <motion.div 
+       </motion.div>
+        {/* <motion.div 
         whileHover={{
           scale:1.05,
           boxShadow:"0px 0px 8px rgb(255,255,255)",
@@ -84,12 +84,6 @@ const Projects = () => {
             />
           </figure>
           <div className=" p-4">
-            <div className=" mt-2 flex gap-2  justify-center">
-              <div className="badge badge-neutral bg-blue-600  p-2 font-bold">REACT</div>
-              <div className="badge badge-neutral bg-blue-600 p-2 font-bold">MongoDB</div>
-              <div className="badge badge-neutral bg-blue-600 p-2 font-bold">Firebase</div>
-              <div className="badge badge-neutral bg-blue-600 p-2 font-bold">Node.js</div>
-            </div>
             <div className=" mt-4">
               <h2 className="card-title text-3xl">
                 Tech Connect Pro
@@ -101,7 +95,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
         <motion.div 
         whileHover={{
           scale:1.05,
@@ -115,12 +109,12 @@ const Projects = () => {
             />
           </figure>
           <div className=" p-4">
-            <div className=" mt-2 flex gap-2  justify-center">
+            {/* <div className=" mt-2 flex gap-2  justify-center">
               <div className="badge badge-secondary  font-bold">REACT</div>
               <div className="badge badge-secondary  font-bold">MongoDB</div>
               <div className="badge badge-secondary  font-bold">Firebase</div>
               <div className="badge badge-secondary  font-bold">Node.js</div>
-            </div>
+            </div> */}
             <div className=" mt-4">
               <h2 className="card-title text-3xl">
                 Island Wedding World
